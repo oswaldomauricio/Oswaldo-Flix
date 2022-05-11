@@ -280,8 +280,10 @@ figcaption {
     }
 
     .secaoDestaque .secaoDestaque__navegacaoDestaque a {
+        display: inline-flex;
         padding: 10px 30px;
         font-size: 1.3rem; 
+        font-weight: 900;
     }
 
     .secaoDestaque {
@@ -289,17 +291,14 @@ figcaption {
         margin-bottom: 10px;
     }
     .secaoDestaque .secaoDestaque__navegacaoDestaque a img {
-        display: inline;
-        position: relative;
-        top: 8px;
-        padding-right: 15px;
-        
+            display: inline;
+            padding-right: 15px;
     }
+    
     .secaoDestaque .secaoDestaque__navegacaoDestaque a:nth-child(2) {
         background-color: rgba(255, 255, 255, 0.452);
         color: #fff;
-        width: 305px;        
-    
+        width: 260px;        
     }
 
     .secaoFilme figure img {
@@ -312,6 +311,7 @@ figcaption {
     }
 
     .secaoFilme h2 {
+        font-family: sans-serif;
         margin-left: 20px;
         margin-top: 20px;
         text-align: left;
@@ -323,24 +323,24 @@ figcaption {
         margin-left: 5px;
     }
 
-    .rodape {}
+    .rodape {
+        
+    }
 
     .rodape .rodape__menuNavegacao ul {
-        display: flex;
-        justify-content: space-around;
+        display: inline;
     }
 
     .rodape .rodape__menuNavegacao {
-
-        flex-wrap: wrap;
-
+        justify-content: space-around;
+        width: auto;
+        line-height: 2em;
     }
-
+    
     .rodape .rodape__midiasSociais ul {
         display: flex;
-        flex-wrap: nowrap;
         margin-top: 150px;
-        margin-left: 8px;
+        margin-left: 80px;
     }
 
     .rodape .rodape__midiasSociais ul img {
@@ -397,7 +397,6 @@ figcaption {
 
     }
 }
-
 @media screen and (min-width: 1270px) {
     .cabecalho .cabecalho__logo img {
         width: 200px;
