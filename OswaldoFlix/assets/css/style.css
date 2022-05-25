@@ -195,6 +195,7 @@ figcaption {
 .rodape .rodape__midiasSociais ul {
     display: flex;
     flex-wrap: nowrap;
+    margin: 0 0 0 0 ;
 }
 
 .rodape .rodape__midiasSociais ul img {
